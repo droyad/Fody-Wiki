@@ -14,7 +14,7 @@ There is a  [Visual Studio addin](http://visualstudiogallery.msdn.microsoft.com/
 
 ## Usage
 
-See [SampleUsage] for an introduction on using Fody.
+See [SampleUsage](SampleUsage) for an introduction on using Fody.
 
 ## Naming
 
