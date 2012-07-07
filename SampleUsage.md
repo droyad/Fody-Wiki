@@ -8,6 +8,8 @@
 
 The above two steps need only be done once for a machine.
 
+## Usage
+
   * Open your project in Visual Studio
   * Select the project in Solution Explorer
   * Enable Fody for the project by using the top level menu 'Project > Fody > Configure'. Click OK. 
