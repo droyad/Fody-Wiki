@@ -5,14 +5,13 @@
 
 However if you want to manually set up Fody...
 
-  * Get the latest download http://code.google.com/p/fody/downloads/list
+  * Get the latest download https://github.com/SimonCropp/Fody/downloads
   * Unzip the download. Place the files from 'MSBuild' where Visual Studio can find it. In my case it is in a directory called _Tools\Fody_ at the root of my solution. 
   * Add a the `Fody.WeavingTask` to your project.
   
   eg
   
-    <Project>
-     ...
+    <Project>     
       <UsingTask 
           TaskName="Fody.WeavingTask"
           AssemblyFile="$(SolutionDir)Tools\Fody\Fody.dll" />
@@ -21,5 +20,5 @@ However if you want to manually set up Fody...
       </Target>
     </Project>
   
-  * Add a "FodyWeavers.xml" to the project. See [SampleUsage]
+  * Add a "FodyWeavers.xml" to the project. See [SampleUsage](wiki/SampleUsage)
   * Build. 
