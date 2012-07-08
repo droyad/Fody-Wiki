@@ -8,7 +8,7 @@ Add-ins can be deployed through [NuGet](http://nuget.org/) packages.
 
 For example
 
-[VirtuosityNuget.png]
+![VirtuosityNuget.png](wiki/VirtuosityNuget.png)
 
 
-See [AddinSearchPaths]
+See [AddinSearchPaths](wiki/AddinSearchPaths)
