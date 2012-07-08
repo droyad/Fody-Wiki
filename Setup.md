@@ -8,7 +8,9 @@ However if you want to manually set up Fody...
   * Get the latest download https://github.com/SimonCropp/Fody/downloads
   * Unzip the download. Place the files from 'MSBuild' where Visual Studio can find it. In my case it is in a directory called _Tools\Fody_ at the root of my solution. 
   * Add a the `Fody.WeavingTask` to your project.
-  
+
+eg  
+
     <Project>     
       <UsingTask 
           TaskName="Fody.WeavingTask"
