@@ -14,7 +14,7 @@ The above two steps need only be done once for a machine.
   * Select the project in Solution Explorer
   * Enable Fody for the project by using the top level menu 'Project > Fody > Configure'. Click OK. 
   * Notice a file 'FodyWeavers.xml' has been added to the project
-  * Install a Fody add-in using NuGet. See http://docs.nuget.org/docs/start-here/using-the-package-manager-console for more info. For example Virtuosity (http://code.google.com/p/virtuosity/)
+  * Install a Fody add-in using NuGet. See http://docs.nuget.org/docs/start-here/using-the-package-manager-console for more info. For example [Virtuosity](https://github.com/SimonCropp/Virtuosity)
 
     `Install-Package Virtuosity.Fody`
 
