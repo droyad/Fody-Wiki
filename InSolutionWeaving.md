@@ -12,7 +12,7 @@ Add a project named 'Weavers' to your solution.
 
 ### ModuleWeaver Class 
 
-Add a class named 'ModuleWeaver' to the project. See [ModuleWeaver](wiki/ModuleWeaver)
+Add a class named 'ModuleWeaver' to the project. See [ModuleWeaver](ModuleWeaver)
 
 ### Project Order 
 
