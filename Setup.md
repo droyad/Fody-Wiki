@@ -20,5 +20,5 @@ eg
       </Target>
     </Project>
   
-  * Add a "FodyWeavers.xml" to the project. See [SampleUsage](wiki/SampleUsage)
+  * Add a "FodyWeavers.xml" to the project. See [SampleUsage](SampleUsage)
   * Build. 
