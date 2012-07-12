@@ -17,4 +17,4 @@ Manipulating the IL of an assembly as part of a build requires a significant amo
 
 Add-ins get passed an instance of 'Mono.Cecil.ModuleDefinition' and can manipulate it as required.
 
-[HowToWriteAnAddin](wiki/HowToWriteAnAddin)
+[HowToWriteAnAddin](HowToWriteAnAddin)
