@@ -2,7 +2,7 @@
 
 ## How to deploy Addins 
 
-Addins are deployed as single assemblies. These assemblies can be can be deployed directly to one of the [AddinSearchPaths](wiki/AddinSearchPaths) or using nuget [DeployingAddinsAsNugets](wiki/DeployingAddinsAsNugets).
+Addins are deployed as single assemblies. These assemblies can be can be deployed directly to one of the [AddinSearchPaths](wiki/AddinSearchPaths) or using nuget [DeployingAddinsAsNugets](DeployingAddinsAsNugets).
 
 ## The assembly
 
@@ -12,7 +12,7 @@ Addins are deployed as single assemblies. These assemblies can be can be deploye
 
 ## ModuleWeaver Class 
 
-Add a class named 'ModuleWeaver' to the project. See [ModuleWeaver](wiki/ModuleWeaver)
+Add a class named 'ModuleWeaver' to the project. See [ModuleWeaver](ModuleWeaver)
 
 ## FodyWeavers.xml
 
