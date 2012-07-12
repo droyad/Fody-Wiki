@@ -6,7 +6,7 @@ Addins are deployed as single assemblies. These assemblies can be can be deploye
 
 ## The assembly
 
- * The assembly should be  suffixed with ".Fody". 
+ * The assembly must be suffixed with ".Fody". 
  * Any dependencies (excluding Mono Cecil) should be combined using  [ILMerge](http://research.microsoft.com/en-us/people/mbarnett/ilmerge.aspx) and the `/Internalize` flag.
  * The assembly should contain a class named 'ModuleWeaver'. Namespace does not matter.
 
