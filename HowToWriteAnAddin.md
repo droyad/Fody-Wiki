@@ -2,7 +2,7 @@
 
 ## How to deploy Addins 
 
-Addins are deployed as single assemblies. These assemblies can be can be deployed directly to one of the [AddinSearchPaths](wiki/AddinSearchPaths) or using nuget [DeployingAddinsAsNugets](DeployingAddinsAsNugets).
+Addins are deployed as single assemblies. These assemblies can be can be deployed directly to one of the [AddinSearchPaths](AddinSearchPaths) or using nuget [DeployingAddinsAsNugets](DeployingAddinsAsNugets).
 
 ## The assembly
 
