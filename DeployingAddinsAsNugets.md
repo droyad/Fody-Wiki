@@ -11,4 +11,4 @@ For example
 ![VirtuosityNuget.png](VirtuosityNuget.png)
 
 
-See [AddinSearchPaths](wiki/AddinSearchPaths)
+See [AddinSearchPaths](AddinSearchPaths)
