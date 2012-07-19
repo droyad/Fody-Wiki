@@ -20,6 +20,7 @@ The above two steps need only be done once for a machine.
 
   * Add the add-in to 'FodyWeavers.xml'
 
+eg
 
     <?xml version="1.0" encoding="utf-8" ?>
     <Weavers>
