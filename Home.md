@@ -1,6 +1,19 @@
-##Extensible tool for weaving .net assemblies
+## Extensible tool for weaving .net assemblies
 
-Uses [Mono.Cecil](http://www.mono-project.com/Cecil)  and an add-in based approach to modifying the IL of .net assemblies at compile time.
+## Introduction 
+
+Manipulating the IL of an assembly as part of a build requires a significant amount of plumbing code. This plumbing code involves knowledge of both the MSBuild and Visual Studio APIs. Fody attempts to elimination that plumbing code through an extensible add-in model. 
+
+## The plumbing tasks Fody handles 
+
+  * Injection of the MSBuild task into the build pipeline
+  * Resolving the location of the assembly and pdb
+  * Abstracts the complexities of logging to MSBuild
+  * Reads the assembly and pdb into the Mono.Cecil object model
+  * Re-applying the strong name if necessary
+  * Saving the assembly and pdb
+
+FOoy Uses [Mono.Cecil](http://www.mono-project.com/Cecil)  and an add-in based approach to modifying the IL of .net assemblies at compile time.
 
  * No install required to build
  * No attributes required
