@@ -14,7 +14,7 @@ There is a  [Visual Studio addin](http://visualstudiogallery.msdn.microsoft.com/
 
 ## Usage
 
-See [SampleUsage](https://github.com/SimonCropp/Fody/wiki/SampleUsage) for an introduction on using Fody.
+See [SampleUsage](SampleUsage) for an introduction on using Fody.
 
 ## Naming
 
@@ -29,21 +29,21 @@ The name "Fody" comes from the small birds that belong to the weaver family [Plo
 
 ## More Info
 
-[AddinSearchPaths]
-[AddinsList]
-[DeployingAddinsAsNugets]
-[Home]
-[HowToWriteAnAddin]
-[InSolutionWeaving]
-[ModuleWeaver]
-[Overview]
-[PdbReWritingAndDebugging
-[ReleaseNotes]
-[SampleUsage]
-[Setup]
-[SignedAssemblies]
-[SupportedRuntimesAndIde]
-[TaskAddsAFlagInterface]
-[TaskCouldNotBeLoaded]
-[VSIXPackage]
-[WeavingTaskOptions]
+[AddinSearchPaths](AddinSearchPaths)
+[AddinsList](AddinsList)
+[DeployingAddinsAsNugets](DeployingAddinsAsNugets)
+[Home](Home)
+[HowToWriteAnAddin](HowToWriteAnAddin)
+[InSolutionWeaving](InSolutionWeaving)
+[ModuleWeaver](ModuleWeaver)
+[Overview](Overview)
+[PdbReWritingAndDebugging](PdbReWritingAndDebugging)
+[ReleaseNotes](ReleaseNotes)
+[SampleUsage](SampleUsage)
+[Setup](Setup)
+[SignedAssemblies](SignedAssemblies)
+[SupportedRuntimesAndIde](SupportedRuntimesAndIde)
+[TaskAddsAFlagInterface](TaskAddsAFlagInterface)
+[TaskCouldNotBeLoaded](TaskCouldNotBeLoaded)
+[VSIXPackage](VSIXPackage)
+[WeavingTaskOptions](WeavingTaskOptions)
