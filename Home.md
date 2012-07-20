@@ -26,3 +26,24 @@ The name "Fody" comes from the small birds that belong to the weaver family [Plo
  * [JetBrains dotTrace](http://www.jetbrains.com/profiler/)
  * [JetBrains Resharper](http://www.jetbrains.com/resharper/)
  * [Mono Cecil](http://www.mono-project.com/Cecil)
+
+## More Info
+
+[AddinSearchPaths]
+[AddinsList]
+[DeployingAddinsAsNugets]
+[Home]
+[HowToWriteAnAddin]
+[InSolutionWeaving]
+[ModuleWeaver]
+[Overview]
+[PdbReWritingAndDebugging
+[ReleaseNotes]
+[SampleUsage]
+[Setup]
+[SignedAssemblies]
+[SupportedRuntimesAndIde]
+[TaskAddsAFlagInterface]
+[TaskCouldNotBeLoaded]
+[VSIXPackage]
+[WeavingTaskOptions]
