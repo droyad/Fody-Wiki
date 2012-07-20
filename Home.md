@@ -29,7 +29,7 @@ The name "Fody" comes from the small birds that belong to the weaver family [Plo
 
 ## More Info
 
- * [AddinSearchPaths](AddinSearchPaths)
+ * [AddinSearchPaths](wiki/AddinSearchPaths)
  * [AddinsList](AddinsList)
  * [DeployingAddinsAsNugets](DeployingAddinsAsNugets)
  * [Home](Home)
