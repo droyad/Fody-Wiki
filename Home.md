@@ -46,4 +46,4 @@ The name "Fody" comes from the small birds that belong to the weaver family [Plo
 [TaskAddsAFlagInterface](TaskAddsAFlagInterface)
 [TaskCouldNotBeLoaded](TaskCouldNotBeLoaded)
 [VSIXPackage](VSIXPackage)
-[WeavingTaskOptions](WeavingTaskOptions)
+* [WeavingTaskOptions](WeavingTaskOptions)
