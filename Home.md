@@ -20,8 +20,6 @@ See [SampleUsage](SampleUsage) for an introduction on using Fody.
 
 The name "Fody" comes from the small birds that belong to the weaver family [Ploceidae](http://en.wikipedia.org/wiki/Fody).
 
-SampleUsage
-
 ## Tools and Products Used 
 
  * [JetBrains dotTrace](http://www.jetbrains.com/profiler/)
