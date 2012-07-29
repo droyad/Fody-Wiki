@@ -1,4 +1,4 @@
-**Note: These are old release notes. For updated notes see (Milestones)[https://github.com/SimonCropp/Fody/issues/milestones?state=closed]**
+**Note: These are old release notes. For updated notes see [Milestones](https://github.com/SimonCropp/Fody/issues/milestones?state=closed) **
 
 # Release Notes
 
