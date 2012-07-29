@@ -1,4 +1,3 @@
-
 ## ModuleWeaver Class 
 
  * The class should be public, instance and not abstract.
@@ -48,8 +47,11 @@ For example
         // Init logging delegates to make testing easier
         public ModuleWeaver()
         {
-            LogWarning = s => { };
-            LogInfo = s => { };
+            LogInfo = m => { };
+            LogWarning = m => { };
+            LogWarningPoint = (m,p) => { };
+            LogError = m => { };
+            LogErrorPoint = (m, p) => { };
         } 
 
         public void Execute()
