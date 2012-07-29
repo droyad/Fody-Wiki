@@ -22,7 +22,7 @@ There are also a number of optional properties that will be populated before 'Ex
 
  * A `Config` property that will contain the full element xml from FodyWeavers.xml.
  * `LogInfo`, `LogWarning` and `LogError` delegates for logging informational, warning and error messages respectively. 
- * `LogWarningPoint` and `LogErrorPoint` delegates for logging warning and error messages at a specific point in the code. Using these delegates will allows uses to navigate to the code position via the Visual Studio "Error List"
+ * `LogWarningPoint` and `LogErrorPoint` delegates for logging warning and error messages at a specific point in the code. Using these delegates will allows users to navigate to the code position via the Visual Studio "Error List"
  * An `AssemblyResolver` property that will contain a `Mono.Cecil.IAssemblyResolver` for resolving dependencies.
 
 For example
