@@ -1,7 +1,5 @@
 **Note: These are old release notes. For updated notes see [Milestones](https://github.com/SimonCropp/Fody/issues/milestones?state=closed) **
 
-# Release Notes
-
 ## 0.17.0.0 (31 May 2012)  
 
  * Fix Issue 11 Add support for enabling multiple projects 
