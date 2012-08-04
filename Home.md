@@ -13,7 +13,7 @@ Manipulating the IL of an assembly as part of a build requires a significant amo
   * Re-applying the strong name if necessary
   * Saving the assembly and pdb
 
-Fody Uses [Mono.Cecil](http://www.mono-project.com/Cecil)  and an add-in based approach to modifying the IL of .net assemblies at compile time.
+FOoy Uses [Mono.Cecil](http://www.mono-project.com/Cecil)  and an add-in based approach to modifying the IL of .net assemblies at compile time.
 
  * No install required to build
  * No attributes required
@@ -27,7 +27,7 @@ There is a  [Visual Studio addin](http://visualstudiogallery.msdn.microsoft.com/
 
 ## Usage
 
-See [SampleUsage](SampleUsage) for an introduction on using Fody.
+See [SampleUsage](https://github.com/SimonCropp/Fody/wiki/SampleUsage) for an introduction on using Fody.
 
 ## Naming
 
@@ -41,20 +41,20 @@ The name "Fody" comes from the small birds that belong to the weaver family [Plo
 
 ## More Info
 
- * [AddinSearchPaths](wiki/AddinSearchPaths)
- * [AddinsList](wiki/AddinsList)
- * [DeployingAddinsAsNugets](wiki/DeployingAddinsAsNugets)
- * [Home](wiki/Home)
- * [HowToWriteAnAddin](wiki/HowToWriteAnAddin)
- * [InSolutionWeaving](wiki/InSolutionWeaving)
- * [ModuleWeaver](wiki/ModuleWeaver)
- * [PdbReWritingAndDebugging](wiki/PdbReWritingAndDebugging)
- * [ReleaseNotes](wiki/ReleaseNotes)
- * [SampleUsage](wiki/SampleUsage)
- * [Setup](wiki/Setup)
- * [SignedAssemblies](wiki/SignedAssemblies)
- * [SupportedRuntimesAndIde](wiki/SupportedRuntimesAndIde)
- * [TaskAddsAFlagInterface](wiki/TaskAddsAFlagInterface)
- * [TaskCouldNotBeLoaded](wiki/TaskCouldNotBeLoaded)
- * [VSIXPackage](wiki/VSIXPackage)
- * [WeavingTaskOptions](wiki/WeavingTaskOptions)
+ * [AddinSearchPaths](https://github.com/SimonCropp/Fody/wiki/AddinSearchPaths)
+ * [AddinsList](https://github.com/SimonCropp/Fody/wiki/AddinsList)
+ * [DeployingAddinsAsNugets](https://github.com/SimonCropp/Fody/wiki/DeployingAddinsAsNugets)
+ * [Home](https://github.com/SimonCropp/Fody/wiki/Home)
+ * [HowToWriteAnAddin](https://github.com/SimonCropp/Fody/wiki/HowToWriteAnAddin)
+ * [InSolutionWeaving](https://github.com/SimonCropp/Fody/wiki/InSolutionWeaving)
+ * [ModuleWeaver](https://github.com/SimonCropp/Fody/wiki/ModuleWeaver)
+ * [PdbReWritingAndDebugging](https://github.com/SimonCropp/Fody/wiki/PdbReWritingAndDebugging)
+ * [ReleaseNotes](https://github.com/SimonCropp/Fody/wiki/ReleaseNotes)
+ * [SampleUsage](https://github.com/SimonCropp/Fody/wiki/SampleUsage)
+ * [Setup](https://github.com/SimonCropp/Fody/wiki/Setup)
+ * [SignedAssemblies](https://github.com/SimonCropp/Fody/wiki/SignedAssemblies)
+ * [SupportedRuntimesAndIde](https://github.com/SimonCropp/Fody/wiki/SupportedRuntimesAndIde)
+ * [TaskAddsAFlagInterface](https://github.com/SimonCropp/Fody/wiki/TaskAddsAFlagInterface)
+ * [TaskCouldNotBeLoaded](https://github.com/SimonCropp/Fody/wiki/TaskCouldNotBeLoaded)
+ * [VSIXPackage](https://github.com/SimonCropp/Fody/wiki/VSIXPackage)
+ * [WeavingTaskOptions](https://github.com/SimonCropp/Fody/wiki/WeavingTaskOptions)
