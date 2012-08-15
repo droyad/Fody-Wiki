@@ -24,6 +24,8 @@ Notice a file `FodyWeavers.xml` has been added to the project
 
   ![FodyWeaversInProject.jpg](FodyWeaversInProject.jpg)
 
+Which will contain
+
     <?xml version="1.0" encoding="utf-8" ?>
     <Weavers>
     </Weavers>
