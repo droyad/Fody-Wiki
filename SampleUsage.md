@@ -14,7 +14,7 @@ The Visual Studio package is only to help you configure Fody for your projects. 
 
   * Open your solution Visual Studio
   * Select the project in Solution Explorer
-  * Enable Fody for the project by using the top level menu 'Project > Fody > Configure'. Click OK. 
+  * Enable Fody for the project by using the top level menu 'Project > Fody > Enable'. Click OK. 
   
   ![ProjectEnable.jpg](ProjectEnable.jpg)
   
