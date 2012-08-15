@@ -22,22 +22,24 @@ The Visual Studio package is only to help you configure Fody for your projects. 
   
 Notice a file `FodyWeavers.xml` has been added to the project
 
-        <?xml version="1.0" encoding="utf-8" ?>
-        <Weavers>
-        </Weavers>
+  ![FodyWeaversInProject.jpg](FodyWeaversInProject.jpg)
+
+    <?xml version="1.0" encoding="utf-8" ?>
+    <Weavers>
+    </Weavers>
 
 Now add a names weaver to this file. For this sample [Virtuosity](https://github.com/SimonCropp/Virtuosity) will be used. So the modified `FodyWeavers.xml` will look like this:
 
-        <?xml version="1.0" encoding="utf-8" ?>
-        <Weavers>
-            <Virtuosity/>
-        </Weavers>
+    <?xml version="1.0" encoding="utf-8" ?>
+    <Weavers>
+        <Virtuosity/> 
+    </Weavers>
 
 ### 5. Add the weaver nuget package
 
 Install a Fody add-in using NuGet. See [Using the package manager console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console) for more info. Again using Virtuosity
 
-    `Install-Package Virtuosity.Fody`
+    Install-Package Virtuosity.Fody
 
 ### 6. Build
 
