@@ -1,4 +1,5 @@
   * [AsyncErrorHandling](https://github.com/shiftkey/Fody.AsyncErrorHandling) Integrates error handling into async and TPL code.
+  * [BasicFodyAddin](https://github.com/SimonCropp/BasicFodyAddin) A simple project meant to illustrate how to build an addin.
   * [Caseless](https://github.com/SimonCropp/Caseless) Change string comparisons to be case insensitive.
   * [Catel](http://catelfody.codeplex.com/) For transforming automatic properties into [Catel](http://catel.codeplex.com/) properties.
   * [ExtraConstraints](https://github.com/SimonCropp/ExtraConstraints) Facilitates adding constraints for Enum and Delegate to types and methods.
