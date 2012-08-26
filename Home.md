@@ -39,9 +39,10 @@ The name "Fody" comes from the small birds that belong to the weaver family [Plo
  * [JetBrains Resharper](http://www.jetbrains.com/resharper/)
  * [Mono Cecil](http://www.mono-project.com/Cecil)
 
-## A working sample of every addin
+## Samples
 
-[FodyAddinSamples](https://github.com/SimonCropp/FodyAddinSamples) is a single solution that contains a working copy of every fody addin.
+ * [BasicFodyAddin](https://github.com/SimonCropp/BasicFodyAddin) A simple project meant to illustrate how to build an addin.
+ * [FodyAddinSamples](https://github.com/SimonCropp/FodyAddinSamples) is a single solution that contains a working copy of every fody addin.
 
 ## More Info
 
@@ -62,3 +63,26 @@ The name "Fody" comes from the small birds that belong to the weaver family [Plo
  * [TaskCouldNotBeLoaded](https://github.com/SimonCropp/Fody/wiki/TaskCouldNotBeLoaded)
  * [VSIXPackage](https://github.com/SimonCropp/Fody/wiki/VSIXPackage)
  * [WeavingTaskOptions](https://github.com/SimonCropp/Fody/wiki/WeavingTaskOptions)
+
+## With thanks to
+
+### Resharper from Jetbrains
+
+http://www.jetbrains.com/resharper/
+
+![Resharper.png](https://raw.github.com/wiki/SimonCropp/Fody/Resharper.png)
+
+
+### TeamCity from Jetbrains
+
+http://www.jetbrains.com/TeamCity/
+
+![TeamCity.png](https://raw.github.com/wiki/SimonCropp/Fody/TeamCity.png)
+
+### Codebetter
+
+For supplying a build server
+
+http://codebetter.com/
+
+![CodeBetter.png](https://raw.github.com/wiki/SimonCropp/Fody/CodeBetter.png)
