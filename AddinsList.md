@@ -5,6 +5,7 @@
   * [ExtraConstraints](https://github.com/SimonCropp/ExtraConstraints) Facilitates adding constraints for Enum and Delegate to types and methods.
   * [Fielder](https://github.com/SimonCropp/Fielder) Converts public fields to public properties.
   * [Freezable](https://github.com/SimonCropp/Freezable) Implements the Freezable pattern.
+  * [InfoOf](https://github.com/SimonCropp/InfoOf) Provides `methodof`, `propertyof` and `fieldof` equivalents of [`typeof`](http://msdn.microsoft.com/en-us/library/58918ffs.aspx) .
   * [MethodDecorator](http://github.com/citizenmatt/MethodDecorator.Fody) Decorate arbitrary methods to run code before and after invocation.
   * [MethodTimer](https://github.com/SimonCropp/MethodTimer) Injects method timing code.
   * [ModuleInit](https://github.com/SimonCropp/ModuleInit) Adds a module initializer to an assembly.
