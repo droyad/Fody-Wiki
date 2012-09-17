@@ -32,14 +32,6 @@ A comma separated list of paths to assembly references.
 
     <Fody.WeavingTask ... References="@(ReferencePath)" />
 
-## AddinSearchPaths 
-
-A comma separated list of directories to search for Addins. 
-
-*Optional.* See: [AddinSearchPaths]
-
-    <Fody.WeavingTask ... AddinSearchPaths="$(SolutionDir)FodyAddins" />
-
 ## KeyFilePath 
 
 The path to the strong name key of the assembly. 
