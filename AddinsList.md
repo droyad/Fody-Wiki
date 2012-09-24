@@ -2,6 +2,7 @@
   * [BasicFodyAddin](https://github.com/SimonCropp/BasicFodyAddin) A simple project meant to illustrate how to build an addin.
   * [Caseless](https://github.com/SimonCropp/Caseless) Change string comparisons to be case insensitive.
   * [Catel](http://catelfody.codeplex.com/) For transforming automatic properties into [Catel](http://catel.codeplex.com/) properties.
+  * [EmptyConstructor](https://github.com/SimonCropp/EmptyConstructor) Adds an empty constructor to classes even if a non empty one is defined.
   * [ExtraConstraints](https://github.com/SimonCropp/ExtraConstraints) Facilitates adding constraints for Enum and Delegate to types and methods.
   * [Fielder](https://github.com/SimonCropp/Fielder) Converts public fields to public properties.
   * [Freezable](https://github.com/SimonCropp/Freezable) Implements the Freezable pattern.
