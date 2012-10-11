@@ -17,9 +17,7 @@ The Visual Studio package is only to help you configure Fody for your projects. 
   * Enable Fody for the project by using the top level menu 'Project > Fody > Enable'. Click OK. 
   
   ![ProjectEnable.jpg](ProjectEnable.jpg)
-  
-### 4. Add a weaver to FodyWeavers.xml
-  
+
 Notice a file `FodyWeavers.xml` has been added to the project
 
   ![FodyWeaversInProject.jpg](FodyWeaversInProject.jpg)
@@ -30,19 +28,19 @@ Which will contain
     <Weavers>
     </Weavers>
 
-Now add a names weaver to this file. For this sample [Virtuosity](https://github.com/SimonCropp/Virtuosity) will be used. So the modified `FodyWeavers.xml` will look like this:
+### 4. Add the weaver nuget package
+
+Install a Fody add-in using NuGet. See [Using the package manager console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console) for more info. For this example we will use [Virtuosity](https://github.com/SimonCropp/Virtuosity)
+
+    Install-Package Virtuosity.Fody
+
+Notice `FodyWeavers.xml` will now look like this:
 
     <?xml version="1.0" encoding="utf-8" ?>
     <Weavers>
         <Virtuosity/> 
     </Weavers>
 
-### 5. Add the weaver nuget package
-
-Install a Fody add-in using NuGet. See [Using the package manager console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console) for more info. Again using Virtuosity
-
-    Install-Package Virtuosity.Fody
-
-### 6. Build
+### 5. Build
 
 Now have a look at your assembly in your favourite decompiler. All members will now be virtual.
