@@ -1,3 +1,4 @@
+  * [Anotar](https://github.com/SimonCropp/Anotar) Simplifies logging through a static class and some IL manipulation.
   * [AsyncErrorHandling](https://github.com/shiftkey/Fody.AsyncErrorHandling) Integrates error handling into async and TPL code.
   * [BasicFodyAddin](https://github.com/SimonCropp/BasicFodyAddin) A simple project meant to illustrate how to build an addin.
   * [Caseless](https://github.com/SimonCropp/Caseless) Change string comparisons to be case insensitive.
