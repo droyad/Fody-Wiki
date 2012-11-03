@@ -15,5 +15,6 @@
   * [PropertyChanged](https://github.com/SimonCropp/PropertyChanged) Injects INotifyPropertyChanged code into properties.
   * [PropertyChanging](https://github.com/SimonCropp/PropertyChanging) Injects INotifyPropertyChanging code into properties.
   * [Publicize](https://github.com/SimonCropp/Publicize) Converts non-public members to public hidden members.
+  * [Stamp](https://github.com/SimonCropp/Stamp) Stamps an assembly with git data.
   * [Validar](https://github.com/SimonCropp/Validar) Injects [IDataErrorInfo](http://msdn.microsoft.com/en-us/library/system.componentmodel.IDataErrorInfo.aspx) or [INotifyDataErrorInfo](http://msdn.microsoft.com/en-us/library/system.componentmodel.INotifyDataErrorInfo.aspx ) code into a class at compile time.
   * [Virtuosity](https://github.com/SimonCropp/Virtuosity) Change all members to virtual.
