@@ -10,6 +10,7 @@
   * [InfoOf](https://github.com/SimonCropp/InfoOf) Provides `methodof`, `propertyof` and `fieldof` equivalents of [`typeof`](http://msdn.microsoft.com/en-us/library/58918ffs.aspx) .
   * [MethodDecorator](http://github.com/citizenmatt/MethodDecorator.Fody) Decorate arbitrary methods to run code before and after invocation.
   * [MethodTimer](https://github.com/SimonCropp/MethodTimer) Injects method timing code.
+  * [Mixins](https://bitbucket.org/skwasiborski/mixins.fody/wiki/Home) A mixin is a class that provides a certain functionality to be inherited or just reused by a subclass.
   * [ModuleInit](https://github.com/SimonCropp/ModuleInit) Adds a module initializer to an assembly.
   * [Obsolete](https://github.com/SimonCropp/Obsolete) Helps keep usages of [ObsoleteAttribute]([http://msdn.microsoft.com/en-us/library/fwz0y5c2 ) consistent.
   * [PropertyChanged](https://github.com/SimonCropp/PropertyChanged) Injects INotifyPropertyChanged code into properties.
