@@ -6,7 +6,7 @@
 However if you want to manually set up Fody...
 
   * Get the latest download https://s3.amazonaws.com/Fody/
-  * Unzip the download. Place the files from 'MSBuild' where Visual Studio can find it. In my case it is in a directory called `Tools\Fody` at the root of my solution. 
+  * Unzip the download. Place the files from 'MSBuild' where Visual Studio/Mono Develop can find it. In my case it is in a directory called `Tools\Fody` at the root of my solution. 
   * Import `Fody.targets` to your project.
 
 eg  
