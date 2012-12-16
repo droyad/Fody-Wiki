@@ -64,6 +64,10 @@ The name "Fody" comes from the small birds that belong to the weaver family [Plo
  * [VSIXPackage](https://github.com/SimonCropp/Fody/wiki/VSIXPackage)
  * [WeavingTaskOptions](https://github.com/SimonCropp/Fody/wiki/WeavingTaskOptions)
 
+## Mono and MonoDevelop
+
+As of version 1.8.11 Fody supports Mono. See  [Mono](https://github.com/SimonCropp/Fody/wiki/Mono)
+
 ## With thanks to
 
 ### Resharper from Jetbrains
