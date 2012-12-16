@@ -17,4 +17,6 @@ To use Fody on Mono you will need to enable XBuild in MonoDevelop
 
 ## Add to Solution and Projects
 
-Since there is no VS addin model in MonoDevelop you will need to do a little manual work to setup Fody in your solution. See [Setup](Setup)
+Since there is no VS addin model in MonoDevelop you will need to do a little manual work to setup Fody in your solution. 
+
+See [Setup](Setup)
