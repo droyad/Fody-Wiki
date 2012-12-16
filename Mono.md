@@ -8,10 +8,11 @@ To use Fody on Mono you will need to enable XBuild in MonoDevelop
 
 `Tools > Options > Preferences > Build > Compile projects using MSBuild / XBuild`
 
-### On Windows
+### On OSX
 
 `MonoDevelop > Preferences > Preferences > Build > Compile projects using MSBuild / XBuild`
 
+### Screenshot
 ![XBuildWindows.png](https://raw.github.com/wiki/SimonCropp/Fody/XBuildWindows.png)
 
 ## Add to Solution and Projects
