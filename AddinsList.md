@@ -8,6 +8,7 @@
   * [Fielder](https://github.com/SimonCropp/Fielder) Converts public fields to public properties.
   * [Freezable](https://github.com/SimonCropp/Freezable) Implements the Freezable pattern.
   * [InfoOf](https://github.com/SimonCropp/InfoOf) Provides `methodof`, `propertyof` and `fieldof` equivalents of [`typeof`](http://msdn.microsoft.com/en-us/library/58918ffs.aspx) .
+  * [JetBrainsAnnotations](https://github.com/SimonCropp/JetBrainsAnnotations.Fody) Modifies an assembly so you can leverage JetBrains Annotations but don't need to deploy JetBrainsAnnotations.dll. 
   * [MethodDecorator](http://github.com/citizenmatt/MethodDecorator.Fody) Decorate arbitrary methods to run code before and after invocation.
   * [MethodTimer](https://github.com/SimonCropp/MethodTimer) Injects method timing code.
   * [Mixins](https://bitbucket.org/skwasiborski/mixins.fody/wiki/Home) A mixin is a class that provides a certain functionality to be inherited or just reused by a subclass.
