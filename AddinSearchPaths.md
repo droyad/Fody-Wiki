@@ -2,7 +2,7 @@
 
 The following directories are searched for Weavers
 
- * SolutionDir/Packages
+ * Nuget Package directories
  * SolutionDir/Tools
  * A project in the solution named 'Weavers'. See [InSolutionWeaving](InSolutionWeaving)
 
