@@ -1,6 +1,6 @@
 If you are seeing this page then one of your projects has been updated to the new Fody nuget.
 
-Steps you shoould follow
+Steps you should follow
 
 * Ensure the Fody nuget has been applied to all projects in the current solution. The nuget will take care of converting projects from the VSIX approach to the nuget package approach.
 * Uninstall the Fody VSIX.
