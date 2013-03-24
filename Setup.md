@@ -1,13 +1,10 @@
 # How to manually add to a project
 
-**Setup can be simplified by installing the [Visual Studio package](http://visualstudiogallery.msdn.microsoft.com/074a2a26-d034-46f1-8fe1-0da97265eb7a)**
+If you want to manually set up Fody...
 
-
-However if you want to manually set up Fody...
-
-  * Get the latest VSIX from here http://visualstudiogallery.msdn.microsoft.com/074a2a26-d034-46f1-8fe1-0da97265eb7a
-  * Unzip the download (the VSIX is actually a zip). 
-  * Place the files from 'VSIXUnzipPath\ContentFiles\Fody' where Visual Studio/Mono Develop can find it. In my case it is in a directory called `Tools\Fody` at the root of my solution. 
+  * Get the nuget package https://nuget.org/packages/Fody/
+  * Unzip the download (the package is actually a zip). 
+  * Place the files files in the root where Visual Studio/Mono Develop can find it. In my case it is in a directory called `Tools\Fody` at the root of my solution. 
   * Import `Fody.targets` to your project.
 
 eg  
