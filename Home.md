@@ -2,7 +2,11 @@
 
 ## Introduction 
 
-Manipulating the IL of an assembly as part of a build requires a significant amount of plumbing code. This plumbing code involves knowledge of both the MSBuild and Visual Studio APIs. Fody attempts to eliminate that plumbing code through an extensible add-in model. 
+Manipulating the IL of an assembly as part of a build requires a significant amount of plumbing code. This plumbing code involves knowledge of both the MSBuild and Visual Studio APIs. Fody attempts to elimination that plumbing code through an extensible add-in model. 
+
+## The nuget package
+
+https://nuget.org/packages/Fody/
 
 ## Why? 
 
@@ -10,7 +14,7 @@ This technique of "weaving" in new instructions is fantastically powerful. You c
 
 ### Note: NotifyPropertyWeaver
 
-Users of the [NotifyPropertyWeaver](https://github.com/SimonCropp/NotifyPropertyWeaver) extension who are migrating to [Fody](https://github.com/Fody/fody) will want to use NuGet to Install the PropertyChanged.Fody package along with Fody itself to get the same functionality as before. This is because Fody is a general purpose weaver with plugins while NotifyPropertyWeaver was specific to one scenario. That scenario now lives in the [PropertyChanged addin](https://github.com/Fody/PropertyChanged). See [Converting from NotifyPropertyWeaver](https://github.com/SimonCropp/PropertyChanged/wiki/ConvertingFromNotifyPropertyWeaver) for more information 
+Users of the [NotifyPropertyWeaver](https://github.com/SimonCropp/NotifyPropertyWeaver) extension who are migrating to [Fody](https://github.com/Fody/fody) will want to use NuGet to Install the PropertyChanged.Fody package along with Fody itself to get the same functionality as before. This is because Fody is a general purpose weaver with plugins while NotifyPropertyWeaver was specific to one scenario. That scenario now lives in the [PropertyChanged addin](https://github.com/Fody/PropertyChanged). See [Converting from NotifyPropertyWeaver](https://github.com/Fody/PropertyChanged/wiki/ConvertingFromNotifyPropertyWeaver) for more information 
 
 ## The plumbing tasks Fody handles 
 
@@ -26,7 +30,7 @@ Fody Uses [Mono.Cecil](http://www.mono-project.com/Cecil)  and an add-in based a
  * No install required to build
  * No attributes required
  * No references required
- * Supports .net 3.5, .net 4, .net 4.5, Silverlight 4, Silverlight 5, Windows Phone 7, Windows Phone 8, Metro on Windows 8, Mono, MonoTouch, MonoDroid and PCL
+ * Supports .net 3.5, .net 4, .net 4.5, Silverlight 4, Silverlight 5, Windows Phone 7, Windows Phone 8, Metro on Windows 8, Mono, MonoTouch, MonoDroid and PCL 
 
 ## Usage
 
@@ -50,10 +54,11 @@ The name "Fody" comes from the small birds that belong to the weaver family [Plo
 ## Addins List
 
   * [Anotar](https://github.com/Fody/Anotar) Simplifies logging through a static class and some IL manipulation.
-  * [AsyncErrorHandling](https://github.com/shiftkey/Fody.AsyncErrorHandling) Integrates error handling into async and TPL code.
+  * [AsyncErrorHandling](https://github.com/Fody/AsyncErrorHandling) Integrates error handling into async and TPL code.
   * [BasicFodyAddin](https://github.com/Fody/BasicFodyAddin) A simple project meant to illustrate how to build an addin.
   * [Caseless](https://github.com/Fody/Caseless) Change string comparisons to be case insensitive.
   * [Catel](http://catelfody.codeplex.com/) For transforming automatic properties into [Catel](http://catel.codeplex.com/) properties.
+  * [Costura](https://github.com/Fody/Costura/) For For embedding references as resources.
   * [EmptyConstructor](https://github.com/Fody/EmptyConstructor) Adds an empty constructor to classes even if a non empty one is defined.
   * [ExtraConstraints](https://github.com/Fody/ExtraConstraints) Facilitates adding constraints for Enum and Delegate to types and methods.
   * [Fielder](https://github.com/Fody/Fielder) Converts public fields to public properties.
@@ -69,6 +74,7 @@ The name "Fody" comes from the small birds that belong to the weaver family [Plo
   * [PropertyChanged](https://github.com/Fody/PropertyChanged) Injects INotifyPropertyChanged code into properties.
   * [PropertyChanging](https://github.com/Fody/PropertyChanging) Injects INotifyPropertyChanging code into properties.
   * [Publicize](https://github.com/Fody/Publicize) Converts non-public members to public hidden members.
+  * [Scalpel](https://github.com/Fody/Scalpel) Strips tests from an assembly. 
   * [Stamp](https://github.com/Fody/Stamp) Stamps an assembly with git data.
   * [Validar](https://github.com/Fody/Validar) Injects [IDataErrorInfo](http://msdn.microsoft.com/en-us/library/system.componentmodel.IDataErrorInfo.aspx) or [INotifyDataErrorInfo](http://msdn.microsoft.com/en-us/library/system.componentmodel.INotifyDataErrorInfo.aspx ) code into a class at compile time.
   * [Virtuosity](https://github.com/Fody/Virtuosity) Change all members to virtual.
@@ -105,4 +111,3 @@ http://www.jetbrains.com/resharper/
 http://www.jetbrains.com/TeamCity/
 
 ![TeamCity.png](https://raw.github.com/wiki/Fody/Fody/TeamCity.png)
-
