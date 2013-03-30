@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-Manipulating the IL of an assembly as part of a build requires a significant amount of plumbing code. This plumbing code involves knowledge of both the MSBuild and Visual Studio APIs. Fody attempts to elimination that plumbing code through an extensible add-in model. 
+Manipulating the IL of an assembly as part of a build requires a significant amount of plumbing code. This plumbing code involves knowledge of both the MSBuild and Visual Studio APIs. Fody attempts to eliminate that plumbing code through an extensible add-in model. 
 
 ## The nuget package
 
@@ -10,11 +10,11 @@ https://nuget.org/packages/Fody/
 
 ## Why? 
 
-This technique of "weaving" in new instructions is fantastically powerful. You can turn simple public properties into full [INotifyPropertyChanged implementations](https://github.com/Fody/PropertyChanged), add [checks for null arguments](https://github.com/Fody/NullGuard.Fody), add [Git hashs to your Assemblies](https://github.com/Fody/Stamp), even [make all your string comparisons case insensitive](https://github.com/Fody/Caseless). 
+This technique of "weaving" in new instructions is fantastically powerful. You can turn simple public properties into full [INotifyPropertyChanged implementations](https://github.com/Fody/PropertyChanged), add [checks for null arguments](https://github.com/Fody/NullGuard), add [Git hashes to your Assemblies](https://github.com/Fody/Stamp), even [make all your string comparisons case insensitive](https://github.com/Fody/Caseless). 
 
 ### Note: NotifyPropertyWeaver
 
-Users of the [NotifyPropertyWeaver](https://github.com/SimonCropp/NotifyPropertyWeaver) extension who are migrating to [Fody](https://github.com/Fody/fody) will want to use NuGet to Install the PropertyChanged.Fody package along with Fody itself to get the same functionality as before. This is because Fody is a general purpose weaver with plugins while NotifyPropertyWeaver was specific to one scenario. That scenario now lives in the [PropertyChanged addin](https://github.com/Fody/PropertyChanged). See [Converting from NotifyPropertyWeaver](https://github.com/Fody/PropertyChanged/wiki/ConvertingFromNotifyPropertyWeaver) for more information 
+Users of the [NotifyPropertyWeaver](https://github.com/SimonCropp/NotifyPropertyWeaver) extension who are migrating to [Fody](https://github.com/Fody/fody) will want to use NuGet to Install the PropertyChanged.Fody package along with Fody itself to get the same functionality as before. This is because Fody is a general purpose weaver with plugins while NotifyPropertyWeaver was specific to one scenario. That scenario now lives in the [PropertyChanged addin](https://github.com/Fody/PropertyChanged). See [Converting from NotifyPropertyWeaver](https://github.com/Fody/PropertyChanged/wiki/ConvertingFromNotifyPropertyWeaver) for more information. 
 
 ## The plumbing tasks Fody handles 
 
@@ -65,7 +65,7 @@ The name "Fody" comes from the small birds that belong to the weaver family [Plo
   * [Freezable](https://github.com/Fody/Freezable) Implements the Freezable pattern.
   * [InfoOf](https://github.com/Fody/InfoOf) Provides `methodof`, `propertyof` and `fieldof` equivalents of [`typeof`](http://msdn.microsoft.com/en-us/library/58918ffs.aspx) .
   * [JetBrainsAnnotations](https://github.com/Fody/JetBrainsAnnotations) Modifies an assembly so you can leverage JetBrains Annotations but don't need to deploy JetBrainsAnnotations.dll. 
-  * [MethodDecorator](http://github.com/citizenmatt/MethodDecorator.Fody) Decorate arbitrary methods to run code before and after invocation.
+  * [MethodDecorator](http://github.com/Fody/MethodDecorator) Decorate arbitrary methods to run code before and after invocation.
   * [MethodTimer](https://github.com/Fody/MethodTimer) Injects method timing code.
   * [Mixins](https://bitbucket.org/skwasiborski/mixins.fody/wiki/Home) A mixin is a class that provides a certain functionality to be inherited or just reused by a subclass.
   * [ModuleInit](https://github.com/Fody/ModuleInit) Adds a module initializer to an assembly.
