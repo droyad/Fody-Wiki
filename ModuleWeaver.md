@@ -23,6 +23,7 @@ There are also a number of optional properties that will be populated before 'Ex
  * `LogInfo`, `LogWarning` and `LogError` delegates for logging informational, warning and error messages respectively. 
  * `LogWarningPoint` and `LogErrorPoint` delegates for logging warning and error messages at a specific point in the code. Using these delegates will allows users to navigate to the code position via the Visual Studio "Error List"
  * An `AssemblyResolver` property that will contain a `Mono.Cecil.IAssemblyResolver` for resolving dependencies.
+ * An `DefineConstants` property that will contain all the compile time constants that have been defined as part of the build.
 
 For example
 
@@ -43,6 +44,8 @@ For example
         public IAssemblyResolver AssemblyResolver { get; set; }
 
         public ModuleDefinition ModuleDefinition { get; set; }
+
+        public List<string> DefineConstants { get; set; }
 
         // Init logging delegates to make testing easier
         public ModuleWeaver()
