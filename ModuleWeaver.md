@@ -42,7 +42,7 @@ For example
         public IAssemblyResolver AssemblyResolver { get; set; }
         public ModuleDefinition ModuleDefinition { get; set; }
         public List<string> DefineConstants { get; set; }
-	public string AssemblyFilePath { get; set; }
+        public string AssemblyFilePath { get; set; }
         public string ProjectDirectoryPath { get; set; }
         public string AddinDirectoryPath { get; set; }
         public string SolutionDirectoryPath { get; set; }
