@@ -1,5 +1,4 @@
 
-
  * [AddinSearchPaths](https://github.com/Fody/Fody/wiki/AddinSearchPaths)
  * [DeployingAddinsAsNugets](https://github.com/Fody/Fody/wiki/DeployingAddinsAsNugets)
  * [Home](https://github.com/Fody/Fody/wiki/Home)
@@ -14,5 +13,5 @@
  * [TaskAddsAFlagInterface](https://github.com/Fody/Fody/wiki/TaskAddsAFlagInterface)
  * [TaskCouldNotBeLoaded](https://github.com/Fody/Fody/wiki/TaskCouldNotBeLoaded)
  * [WeavingTaskOptions](https://github.com/Fody/Fody/wiki/WeavingTaskOptions)
+ * [ThrowingAnExceptionFromAnAddin](https://github.com/Fody/Fody/wiki/ThrowingAnExceptionFromAnAddin)
  * [Mono Support](https://github.com/Fody/Fody/wiki/Mono)
-
