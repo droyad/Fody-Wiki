@@ -42,7 +42,7 @@ The path to the strong name key of the assembly.
 
 ## MessageImportance 
 
-Sets the [http://msdn.microsoft.com/en-us/library/microsoft.build.framework.messageimportance.aspx MessageImportance] to use when logging MSBuild messages. This is useful to control the verbosity of diagnostics outputted by MSBuild. 
+Sets the [MessageImportance](http://msdn.microsoft.com/en-us/library/microsoft.build.framework.messageimportance.aspx) to use when logging MSBuild messages. This is useful to control the verbosity of diagnostics outputted by MSBuild. 
 
 When building using Visual Studio the default verbosity is `Minimal`. This means that if you set `WeavingTask.MessageImportance` to `Normal` or `Low` nothing will be written the the build output. 
 
