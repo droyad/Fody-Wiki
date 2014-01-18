@@ -1,4 +1,3 @@
-
  * [AddinSearchPaths](https://github.com/Fody/Fody/wiki/AddinSearchPaths)
  * [DeployingAddinsAsNugets](https://github.com/Fody/Fody/wiki/DeployingAddinsAsNugets)
  * [Home](https://github.com/Fody/Fody/wiki/Home)
@@ -15,3 +14,4 @@
  * [WeavingTaskOptions](https://github.com/Fody/Fody/wiki/WeavingTaskOptions)
  * [ThrowingAnExceptionFromAnAddin](https://github.com/Fody/Fody/wiki/ThrowingAnExceptionFromAnAddin)
  * [Mono Support](https://github.com/Fody/Fody/wiki/Mono)
+ * [Building From A Network Share](https://github.com/Fody/Fody/wiki/BuildingFromANetworkShare)
