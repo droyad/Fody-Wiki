@@ -20,7 +20,7 @@ For example the minimum class would look like this
 There are also a number of optional properties that will be populated before 'Execute' is called.
 
  * A `Config` property that will contain the full element xml from FodyWeavers.xml.
- * `LogInfo`, `LogWarning` and `LogError` delegates for logging informational, warning and error messages respectively. 
+ * `LogDebug`, `LogInfo`, `LogWarning` and `LogError` delegates for logging debug, informational, warning and error messages respectively. 
  * `LogWarningPoint` and `LogErrorPoint` delegates for logging warning and error messages at a specific point in the code. Using these delegates will allows users to navigate to the code position via the Visual Studio "Error List"
  * An `AssemblyResolver` property that will contain a `Mono.Cecil.IAssemblyResolver` for resolving dependencies.
  * An `DefineConstants` property that will contain all the compile time constants that have been defined as part of the build.
@@ -34,6 +34,7 @@ For example
     public class ModuleWeaver
     {
         public XElement Config { get; set; }
+        public Action<string> LogDebug { get; set; }
         public Action<string> LogInfo { get; set; }
         public Action<string> LogWarning { get; set; }
         public Action<string, SequencePoint> LogWarningPoint { get; set; }
@@ -50,6 +51,7 @@ For example
         // Init logging delegates to make testing easier
         public ModuleWeaver()
         {
+            LogDebug = m => { };
             LogInfo = m => { };
             LogWarning = m => { };
             LogWarningPoint = (m,p) => { };
