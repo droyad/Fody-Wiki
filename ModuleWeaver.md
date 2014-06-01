@@ -26,7 +26,7 @@ There are also a number of optional properties that will be populated before 'Ex
  * An `DefineConstants` property that will contain all the compile time constants that have been defined as part of the build.
  * An `ProjectDirectoryPath` property that will contain the directory path of the project being processed.
  * An `AssemblyFilePath` property that will contain the path to the assembly being processed.
- * An `AddinDirectoryPath` property that will contain the directory path if the current addin.
+ * An `AddinDirectoryPath` property that will contain the directory path of the current addin.
  * An `SolutionDirectoryPath` property that will contain the directory path if the current solution. 
 
 For example
