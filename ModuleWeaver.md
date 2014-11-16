@@ -20,6 +20,13 @@ For example the minimum class would look like this
 There are also a number of optional properties that will be populated before 'Execute' is called.
 
 ```
+using System;
+using System.Collections.Generic;
+using System.Xml.Linq;
+using Microsoft.Build.Framework;
+using Mono.Cecil;
+using Mono.Cecil.Cil;
+
 public class ModuleWeaver
 {
     // Will contain the full element XML from FodyWeavers.xml. OPTIONAL
@@ -55,22 +62,28 @@ public class ModuleWeaver
     // Will contain the full path of the target assembly. OPTIONAL
     public string AssemblyFilePath { get; set; }
 
-    // Will contain the full directory path of the target project. A copy of $(ProjectDir). OPTIONAL
+    // Will contain the full directory path of the target project. 
+    // A copy of $(ProjectDir). OPTIONAL
     public string ProjectDirectoryPath { get; set; }
 
     // Will contain the full directory path of the current weaver. OPTIONAL
     public string AddinDirectoryPath { get; set; }
 
-    // Will contain the full directory path of the current solution. A copy of `$(SolutionDir)` or, if it does not exist, a copy of `$(MSBuildProjectDirectory)..\..\..\`. OPTIONAL
+    // Will contain the full directory path of the current solution.
+    // A copy of `$(SolutionDir)` or, if it does not exist, a copy of `$(MSBuildProjectDirectory)..\..\..\`. OPTIONAL
     public string SolutionDirectoryPath { get; set; }
 
-    // Will contain a semicomma delimetered string that contains all the references for the target project. A copy of the contents of the @(ReferencePath). OPTIONAL
+    // Will contain a semicomma delimetered string that contains 
+    // all the references for the target project. 
+    // A copy of the contents of the @(ReferencePath). OPTIONAL
     public string References { get; set; }
 
-    // Will a list of all the references marked as copy-local. A copy of the contents of the @(ReferenceCopyLocalPaths). OPTIONAL
+    // Will a list of all the references marked as copy-local. 
+    // A copy of the contents of the @(ReferenceCopyLocalPaths). OPTIONAL
     public List<string> ReferenceCopyLocalPaths { get; set; }
 
-    // Will a list of all the msbuild constants. A copy of the contents of the $(DefineConstants). OPTIONAL
+    // Will a list of all the msbuild constants. 
+    // A copy of the contents of the $(DefineConstants). OPTIONAL
     public List<string> DefineConstants { get; set; }
 
     // Init logging delegates to make testing easier
