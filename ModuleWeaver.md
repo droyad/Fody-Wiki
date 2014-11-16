@@ -20,25 +20,19 @@ For example the minimum class would look like this
 There are also a number of optional properties that will be populated before 'Execute' is called.
 
 ```
-using System;
-using System.Collections.Generic;
-using System.Xml.Linq;
-using Microsoft.Build.Framework;
-using Mono.Cecil;
-using Mono.Cecil.Cil;
 
 public class ModuleWeaver
 {
     // Will contain the full element XML from FodyWeavers.xml. OPTIONAL
     public XElement Config { get; set; }
 
-    // Will log an informational message to MSBuild. OPTIONAL
+    // Will log an MessageImportance.Normal message to MSBuild. OPTIONAL
     public Action<string> LogDebug { get; set; }
 
-    // Will log an informational message to MSBuild. OPTIONAL
+    // Will log an MessageImportance.High message to MSBuild. OPTIONAL
     public Action<string> LogInfo  { get; set; }
 
-    // Will log an informational message to MSBuild. OPTIONAL
+    // Will log a message to MSBuild. OPTIONAL
     public Action<string, MessageImportance> LogMessage  { get; set; }
 
     // Will log an warning message to MSBuild. OPTIONAL
