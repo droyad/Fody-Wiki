@@ -6,7 +6,7 @@ Often it is necessary to have weaving code specific to a solution. In this case 
 
 ## How to weave inside a solution 
 
-Fody will look for a binary named `Weavers.dll` inside the directory `Weavers\bin`. This directory must be in the solution root. If there are multiple matches found (e.g. `Wevaers\bin\Debug\Weavers.dll` and `Weavers\bin\Release\Weavers.dll`) then it will use the most recently-modified version, irrespective of your active build configuration.
+Fody will look for a binary named `Weavers.dll` inside the directory `Weavers\bin`. This directory must be in the solution root. If there are multiple matches found (e.g. `Weavers\bin\Debug\Weavers.dll` and `Weavers\bin\Release\Weavers.dll`) then it will use the most recently-modified version, irrespective of your active build configuration.
 
 The [Integration](https://github.com/Fody/Fody/tree/master/Integration) directory provides examples of this - refer to `WithOnlyInSolutionWeaver` and `WithNugetAndInSolutionWeavers`.
 
