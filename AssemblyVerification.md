@@ -13,3 +13,11 @@ Add `VerifyAssembly="true"` to your FodyWeavers.xml
 ```
 
 Add a build constant with the value of `FodyVerifyAssembly`
+
+To send ignore codes to PeVerify use `VerifyIgnoreCodes`.
+
+```
+<Weavers  VerifyIgnoreCodes="0x80131869">
+  <Anotar.Custom />
+</Weavers>
+```
