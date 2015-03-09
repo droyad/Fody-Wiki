@@ -17,7 +17,7 @@ For example the minimum class would look like this
         }
     }
 
-There are also a number of optional properties that will be populated before 'Execute' is called.
+There are also a number of optional members that can be defined.
 
 ```
 
