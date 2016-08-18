@@ -15,7 +15,7 @@ Tested and working with the following .net runtimes
  * Silverlight on Windows Phone 7
  * Silverlight on Windows Phone 8
  * WinRT
- * [.NET Core](NetCore) (Beta)
+ * [[.NET Core|NetCore)]] (Beta)
 
 ## Visual Studio versions (only required at build time) 
 
