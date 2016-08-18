@@ -1,5 +1,7 @@
 # Sample Usage
 
+This is the sample usage for the .NET Framework, see [here for .NET Core](NetCore). 
+ 
 ### 1. Ensure nuget is installed 
 
 [NuGet Visual Studio package](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c) (required to consume addins via nuget)
