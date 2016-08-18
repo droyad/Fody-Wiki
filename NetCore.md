@@ -18,7 +18,7 @@ In the `tools` section of your `project.json` add a reference to `dotnet-fody`, 
 Add the following to your `project.json`:
 
     "scripts": {
-        "postcompile": "dotnet fody %compile:ResponseFile%"
+        "postcompile": "dotnet fody %compile:CompilerExitCode% %compile:ResponseFile%"
     }
 
 Do not change the command, the dotnet compiler will substitute the response file for you.
@@ -57,3 +57,6 @@ Add a `FodyWeavers.xml` file to the root of your project, and add an element for
         <Virtuosity></Virtuosity>
         <Obsolete></Obsolete>
     </Weavers>
+
+## Notes
+- There is no way to fail the build from pre/post compile script, therefor the weaving step may fail, but the build still shows success
