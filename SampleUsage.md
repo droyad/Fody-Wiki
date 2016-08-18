@@ -1,6 +1,6 @@
 # Sample Usage
 
-This is the sample usage for the .NET Framework, see [[here for .NET Core|NetCore)]] 
+This is the sample usage for the .NET Framework, see [here for .NET Core](NetCore.md). 
  
 ### 1. Ensure nuget is installed 
 

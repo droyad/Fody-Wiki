@@ -7,7 +7,7 @@
  * [ModuleWeaver](https://github.com/Fody/Fody/wiki/ModuleWeaver)
  * [PdbReWritingAndDebugging](https://github.com/Fody/Fody/wiki/PdbReWritingAndDebugging)
  * [SampleUsage](https://github.com/Fody/Fody/wiki/SampleUsage)
- * [[.NET Core|NetCore)]]
+ * [.NET Core](NetCore.md)
  * [Setup](https://github.com/Fody/Fody/wiki/Setup)
  * [SignedAssemblies](https://github.com/Fody/Fody/wiki/SignedAssemblies)
  * [SupportedRuntimesAndIde](https://github.com/Fody/Fody/wiki/SupportedRuntimesAndIde)
